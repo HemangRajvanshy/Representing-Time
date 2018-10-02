@@ -100,7 +100,7 @@ h2 {
 .iota .btn-primary {
     color: #52C11F;
     border-color: #52C11F; }
-    .iota .btn-primary:hover {
+    .iota .btn-primary:hover:not(:disabled) {
       color: #E6EAEF;
       background-color: #52C11F; }
     .iota .btn-primary:active {
@@ -110,6 +110,12 @@ h2 {
     .iota .btn-primary:after {
       background-color: #52C11F;
     }
+
+.iota .btn-primary:disabled {
+    color: rgb(20, 47, 7);
+    border-color: rgb(17, 39, 7);
+}
+
 
 @font-face {
     font-family: 'Booster Next FY';
