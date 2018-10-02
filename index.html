@@ -13,9 +13,18 @@
             <div class="container">
               <h2>Time Perception</h2>
 
-              <p class="description" align = >Not your average flat pilly button.</p>
+              <p class="description" align = "center" id = "intro">
 
-              <button class="btn btn-primary" >Button</button>
+                Press the button below 20 times at what you <br> perceive    to be  roughly one second interval. <br> <br> <br>
+                Press the button below to start. <br>
+
+              </p>
+              <p id = "counter" class = "counter">               <span style="display:block; height: 1em;"></span>
+              </p>
+              <p id = "buffer"> </p>
+
+              <span style="display:block; height: 5em;"></span>
+              <button class="btn btn-primary" onclick = "buttonPress()" id = "btn">Start</button>
 
             </div>
         </section>
