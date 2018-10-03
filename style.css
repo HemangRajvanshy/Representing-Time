@@ -44,6 +44,7 @@ h2 {
     font-size: 3em;
     margin: 0em 8em -1em 8em;
     padding: 0% 0% 0% 0%;
+    z-index: -2;
 }
 
 .container {
