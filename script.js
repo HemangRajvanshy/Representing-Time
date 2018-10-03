@@ -36,7 +36,7 @@ function end()  {
     CountText.innerHTML = "<br> You were off by " + Math.abs(Number(20 - diff/1000).toFixed(3)) + " seconds";
     CountText.innerHTML += "<br> <br> What you thought to be 20 seconds were actually " + Number(diff/1000).toFixed(3) + " seconds. <br>"
     CountText.innerHTML += "Research suggests that our sense of time (or chronoception) is closely related to your age. " +
-                                "Older adults perceive time as passing at a relatively fast rate because the biological clock slows progressively"
+                                "Older adults perceive time as passing at a relatively fast rate because the biological clock slows progressively "
                                 + "as a person ages. The slowing of a biological clock presumably " +
                                 "gives rise to the feeling that external time is passing faster.";
 
